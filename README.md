@@ -7,16 +7,17 @@ Guia de regras (SRD v0.12) do Gemini Force Universe dentro do Foundry VTT 14, no
 No Foundry (tela de Setup → Add-on Modules → Install Module), cole no campo **Manifest URL**:
 
 ```
-https://github.com/arielcmanussakis-alt/gfu-guia/releases/latest/download/module.json
+https://raw.githubusercontent.com/arielcmanussakis-alt/gfu-guia/main/module.json
 ```
 
 Depois, ative o módulo no mundo e abra pelo botão **Guia do SRD** (ícone de livro) nos controles de cena, ou com **Shift+G**. Novas versões aparecem no botão de atualizar módulos do Setup.
 
 ## Publicar uma versão nova
 
-1. Edite `srd/`, rode `node build/build.mjs` e suba `version` em `module.json` (e o número no link de `download`).
-2. Faça o commit e crie uma release no GitHub com a tag `vX.Y.Z`.
-3. Anexe à release dois arquivos: `module.json` e `gemini-guia.zip` (o conteúdo do módulo na raiz do zip).
+1. Edite `srd/` e rode `node build/build.mjs`.
+2. Suba `version` em `module.json` e troque o número no link de `download`.
+3. Gere `dist/gemini-guia-vX.Y.Z.zip` com o conteúdo do módulo na raiz (sem `dist/` e `.git/`).
+4. Faça o commit no `main`. O Foundry passa a mostrar a atualização no Setup.
 
 ## Na mesa
 
