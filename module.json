@@ -1,0 +1,30 @@
+{
+  "id": "gemini-guia",
+  "title": "Gemini Force · Guia",
+  "description": "Guia de regras (SRD) do Gemini Force Universe, no visual do Escudo do Mestre. Busca, links @SRD e conteúdo de Mestre separado.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Gemini Force"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "esmodules": [
+    "scripts/guia.js"
+  ],
+  "styles": [
+    "styles/gf-theme.css",
+    "styles/guia.css"
+  ],
+  "languages": [],
+  "flags": {
+    "srdVersion": "v0.12"
+  },
+  "url": "https://github.com/arielcmanussakis-alt/gfu-guia",
+  "manifest": "https://github.com/arielcmanussakis-alt/gfu-guia/releases/latest/download/module.json",
+  "download": "https://github.com/arielcmanussakis-alt/gfu-guia/releases/download/v0.1.0/gemini-guia.zip",
+  "readme": "https://github.com/arielcmanussakis-alt/gfu-guia#readme"
+}

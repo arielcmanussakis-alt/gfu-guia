@@ -1,0 +1,1 @@
+Este documento substitui o Livro Auxiliar v4 e os Patch Notes v0.1 a v0.11, incluindo o Rework dos Místicos. A base continua sendo o Mythras Destined: o que não estiver escrito aqui segue o Destined. Patches futuros devem editar este SRD diretamente.

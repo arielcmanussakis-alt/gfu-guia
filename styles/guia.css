@@ -1,0 +1,120 @@
+/* Gemini Force · Guia — complementa o tema (gf-theme.css) com o que é próprio do SRD. */
+
+/* Janela */
+.gemini-guia {
+  max-width: calc(100vw - 24px);
+  max-height: calc(100vh - 24px);
+  color-scheme: dark;
+  --gfs-bg: #090810;
+  --gfs-panel: #171320;
+  --gfs-text: #f5f0ff;
+  --gfs-muted: #a9a3b9;
+  --gfs-purple: #aa83ff;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.gemini-guia .window-header { background: #100d17; color: #f7f1ff; border-color: #342746; }
+.gemini-guia .window-content { display: flex; flex-direction: column; padding: 0; min-height: 0; overflow: hidden; background: #090810; }
+.gemini-guia .gf-shield-host { flex: 1; width: 100%; height: 100%; min-height: 0; container-type: inline-size; }
+
+/* Barra lateral: capítulo de Mestre */
+.gf-guia .gf-s-nav-item.is-gm > i { color: #e9a3bd; }
+.gf-guia .gf-s-nav-item small { font-variant-numeric: tabular-nums; }
+
+/* Visão geral */
+.gf-guia .gf-g-intro p { max-width: 520px; margin: 0; color: #b8adc7; font-size: 12px; }
+.gf-g-chapter-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.gf-shield .gf-g-chapter-card { min-height: 150px; padding-bottom: 38px; }
+.gf-g-card-top { display: flex; align-items: center; justify-content: space-between; width: 100%; margin-bottom: 12px; }
+.gf-g-card-top > i { display: grid; place-items: center; width: 32px; height: 32px; border: 1px solid rgba(190, 139, 246, .32); border-radius: 9px; background: rgba(139, 79, 209, .2); color: #dcbcff; font-size: 13px; }
+.gf-g-card-number { color: #6f6380; font-size: 20px; font-weight: 780; letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
+.gf-g-chapter-card strong { line-height: 1.3; }
+.gf-shield .gf-g-chapter-card small { margin-top: 4px; white-space: normal; line-height: 1.45; }
+.gf-g-card-meta { position: absolute; left: 16px; bottom: 15px; color: #8f7fa3; font-size: 9px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.gf-g-chapter-card.is-gm { border-color: rgba(233, 140, 178, .3); }
+.gf-g-chapter-card.is-gm .gf-g-card-top > i { color: #f2b5cb; background: rgba(190, 74, 120, .2); border-color: rgba(233, 140, 178, .35); }
+
+/* Sumário do capítulo */
+.gf-g-toc { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; padding: 10px; }
+.gf-shield .gf-g-toc button { display: inline-flex; align-items: center; gap: 7px; padding: 6px 10px; border: 1px solid rgba(182, 127, 243, .18); border-radius: 8px; background: rgba(255, 255, 255, .03); color: #cfc3dd; font-size: 11px; font-weight: 600; }
+.gf-shield .gf-g-toc button:hover { border-color: rgba(196, 139, 255, .5); background: rgba(154, 80, 221, .22); color: #fff; }
+.gf-g-toc button span { color: #b98ff0; font-size: 10px; font-weight: 760; font-variant-numeric: tabular-nums; }
+
+.gf-g-lede { margin: 0 2px 16px; }
+
+/* Seção */
+.gf-g-section { scroll-margin-top: 16px; }
+.gf-g-section .gf-s-panel-head h3 { display: flex; align-items: baseline; gap: 10px; font-size: 15px; }
+.gf-g-num { color: #b98ff0; font-size: 12px; font-weight: 780; font-variant-numeric: tabular-nums; }
+.gf-shield .gf-g-copy { display: inline-flex; align-items: center; gap: 6px; padding: 5px 9px; border: 1px solid rgba(182, 127, 243, .2); border-radius: 7px; background: transparent; color: #a993c2; font-size: 10px; font-weight: 700; letter-spacing: .06em; opacity: .7; }
+.gf-shield .gf-g-copy:hover { opacity: 1; color: #f2e4ff; background: rgba(154, 80, 221, .22); }
+
+/* Texto das regras */
+.gf-g-prose { padding: 14px 20px 18px; color: #d3c9de; font-size: 12.5px; line-height: 1.62; }
+.gf-g-lede.gf-g-prose { padding: 0; font-size: 13px; color: #c9bdd6; }
+.gf-g-prose > :first-child { margin-top: 0; }
+.gf-g-prose > :last-child { margin-bottom: 0; }
+.gf-g-prose p { margin: 0 0 10px; }
+.gf-g-prose strong { color: #f3eafc; font-weight: 700; }
+.gf-g-prose em { color: #e1cdf7; }
+.gf-g-prose code { padding: 1px 5px; border-radius: 4px; background: rgba(160, 110, 220, .16); color: #e6cfff; font-size: .92em; }
+.gf-g-prose h4 { margin: 18px 0 8px; color: #e2c9ff; font-size: 12px; font-weight: 760; letter-spacing: .08em; text-transform: uppercase; border: 0; }
+.gf-g-prose .gf-g-list { margin: 0 0 12px; padding-left: 20px; }
+.gf-g-prose .gf-g-list .gf-g-list { margin: 4px 0 2px; }
+.gf-g-prose li { padding: 2px 0; border-radius: 6px; }
+.gf-g-prose li::marker { color: #ad75f3; }
+.gf-g-prose ol > li::marker { font-weight: 700; font-variant-numeric: tabular-nums; }
+.gf-g-tasks { list-style: none; padding-left: 4px !important; }
+.gf-g-task { margin-right: 5px; color: #b98ff0; }
+.gf-g-prose hr { margin: 16px 0; border: 0; border-top: 1px solid rgba(181, 143, 217, .15); }
+.gf-g-prose a { color: #c99cff; text-decoration: underline; text-decoration-color: rgba(201, 156, 255, .4); }
+.gf-g-prose .gf-g-xref { cursor: pointer; }
+.gf-g-flag { color: #f2b874; }
+.gf-g-code { padding: 12px 14px; border: 1px solid rgba(160, 124, 196, .2); border-radius: 10px; background: rgba(10, 8, 16, .7); color: #dccdee; font-size: 11px; overflow: auto; }
+
+/* Tabelas dentro do texto: ocupam a largura do painel */
+.gf-g-prose .gf-s-table-wrap { margin: 4px -20px 14px; border-top: 1px solid rgba(160, 124, 196, .14); border-bottom: 1px solid rgba(160, 124, 196, .14); }
+.gf-g-prose .gf-s-table-wrap:last-child { margin-bottom: -18px; border-bottom: 0; }
+.gf-g-prose > .gf-s-table-wrap:first-child { margin-top: -14px; border-top: 0; }
+.gf-g-prose .gf-s-table { min-width: 520px; margin: 0; border: 0; background: transparent; font-size: 11.5px; }
+/* Neutraliza o estilo padrão de tabelas do Foundry dentro do guia */
+.gf-g-prose .gf-s-table thead { background: transparent; text-shadow: none; }
+.gf-g-prose .gf-s-table tr:nth-child(odd) { background: transparent; }
+.gf-g-prose .gf-s-table th, .gf-g-prose .gf-s-table td { border-left: 0; border-right: 0; text-align: left; }
+.gf-g-prose .gf-s-table th:first-child, .gf-g-prose .gf-s-table td:first-child { padding-left: 20px; }
+.gf-g-prose .gf-s-table .gf-s-first { white-space: normal; min-width: 110px; }
+
+/* Destaque ao chegar por busca ou link */
+.gf-g-flash { animation: gf-g-flash 1.8s ease-out; }
+@keyframes gf-g-flash {
+  0%, 25% { background-color: rgba(176, 108, 255, .32); box-shadow: inset 2px 0 #c99cff; }
+  100% { background-color: transparent; box-shadow: inset 2px 0 transparent; }
+}
+
+/* Callouts e blocos de Mestre */
+.gf-g-prose .gf-g-callout { margin: 4px 0 12px; align-items: flex-start; }
+.gf-g-prose .gf-g-callout p { margin: 0; color: #d4c7e2; font-size: 12px; }
+.gf-g-gm { position: relative; margin: 6px 0 14px; padding: 30px 14px 12px; border: 1px dashed rgba(233, 140, 178, .45); border-radius: 12px; background: rgba(120, 36, 72, .12); }
+.gf-g-gm-tag { position: absolute; top: 8px; left: 12px; color: #f2b5cb; font-size: 9px; font-weight: 760; letter-spacing: .14em; text-transform: uppercase; }
+.gf-g-gm .gf-g-callout { margin-bottom: 0; }
+
+/* Navegação entre capítulos */
+.gf-g-pager { display: flex; justify-content: space-between; gap: 10px; margin-top: 22px; }
+
+/* Links @SRD fora da janela (chat, fichas, Journals) */
+a.gf-srd-link { border-color: rgba(170, 110, 240, .55); background: rgba(150, 90, 220, .14); }
+a.gf-srd-link > i { color: #a46ef0; }
+
+@container (max-width: 1000px) {
+  .gf-g-chapter-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@container (max-width: 740px) {
+  .gf-g-chapter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gf-g-prose { padding: 12px 14px 16px; }
+  .gf-g-prose .gf-s-table-wrap { margin-left: -14px; margin-right: -14px; }
+  .gf-g-copy span { display: none; }
+}
+@container (max-width: 520px) {
+  .gf-g-chapter-grid { grid-template-columns: 1fr; }
+  .gf-g-toc { display: none; }
+  .gf-g-pager { flex-direction: column; }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "gemini-guia-build",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build/build.mjs" }
+}

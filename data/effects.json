@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Levantar-se (Arise)",
+    "offense": false,
+    "defense": true,
+    "critical": false,
+    "when": "",
+    "description": "Se estiver caído, levanta automaticamente, mesmo engajado",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Empurrar (Bash)",
+    "offense": true,
+    "defense": false,
+    "critical": false,
+    "when": "",
+    "description": "Só contundente ou Desarmado. Empurra 1 m a cada 2 pontos de dano (escudo ou Força Aprimorada) ou a cada 3 (outros), contando o dano antes de armadura. Alvo até 2× o TAM. Contra obstáculo: Atletismo ou Acrobacias Difícil para não cair",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Escolher Local",
+    "offense": true,
+    "defense": false,
+    "critical": false,
+    "when": "",
+    "description": "Corpo a corpo: escolhe o local, se estiver ao alcance. À distância (armas e poderes): só no Crítico",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Atirador (Marksman)",
+    "offense": true,
+    "defense": false,
+    "critical": false,
+    "when": "",
+    "description": "Só à distância. Move o local de acerto um passo para um local adjacente; pode ser escolhido de novo para mover mais um passo. A cabeça só é alcançável a partir do Peito",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Forçar Rendição",
+    "offense": true,
+    "defense": false,
+    "critical": false,
+    "when": "",
+    "description": "Contra alvo em desvantagem (desarmado, caído, com Ferimento Sério). Sem dano; Força de Vontade oposta ao ataque; se falhar, se rende ou foge. Em geral só contra capangas e NPCs secundários",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Danificar Item",
+    "offense": true,
+    "defense": true,
+    "critical": false,
+    "when": "",
+    "description": "O dano vai para um item que o alvo segura ou, com arma Sunder, para a armadura dele",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Desarmar",
+    "offense": true,
+    "defense": true,
+    "critical": false,
+    "when": "",
+    "description": "Estilo de Combate oposto; o item voa um número de metros igual ao Modificador de Dano (ou cai aos pés). Arma maior deixa o teste do alvo um grau mais difícil; menor, um grau mais fácil. Desarmado com mão livre pode tomar a arma. Alvo até 2× o TAM",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Distrair",
+    "offense": true,
+    "defense": true,
+    "critical": false,
+    "when": "",
+    "description": "Dissimulação, Influência ou Intimidação como Ação Livre, oposta por Intuição; ou um efeito não ofensivo de poder. Se o alvo falhar, seu próximo teste numa Ação fica um grau mais difícil",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Abrigar-se (Duck Back)",
+    "offense": true,
+    "defense": true,
+    "critical": false,
+    "when": "",
+    "description": "Volta para uma cobertura adjacente sem gastar movimento",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Emaranhar",
+    "offense": true,
+    "defense": true,
+    "critical": false,
+    "when": "",
+    "description": "Arma com Emaranhar, ou poder capaz de prender. Braço preso não usa o que segura; perna impede movimento; cabeça, peito ou abdômen deixam todos os testes um grau mais difíceis. No próximo turno, 1 PA tenta Derrubar automaticamente. O alvo se solta com Musculatura oposta (1 PA)",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Rajada (Flurry)",
+    "offense": true,
+    "defense": false,
+    "critical": false,
+    "when": "",
+    "description": "Gasta 1 PA para um ataque Desarmado imediato com outra parte do corpo, no mesmo turno",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Segurar (Grip)",
+    "offense": true,
+    "defense": false,
+    "critical": false,
+    "when": "",
+    "description": "Com mão livre (ou membro equivalente), prende o alvo ao alcance. O alvo se solta com 1 PA e Musculatura ou Desarmado oposto",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Impacto",
+    "offense": true,
+    "defense": false,
+    "critical": false,
+    "when": "",
+    "description": "Rola o dano base duas vezes e fica com o maior (não o Modificador de Dano)",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Supressão (Pin Down)",
+    "offense": true,
+    "defense": false,
+    "critical": false,
+    "when": "",
+    "description": "Só à distância. Força de Vontade oposta ao ataque; se falhar, o alvo se abriga e não ataca no próximo turno. Funciona mesmo sem dano",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Pressionar",
+    "offense": true,
+    "defense": true,
+    "critical": false,
+    "when": "",
+    "description": "O oponente não pode Atacar no próximo turno (outras ações são permitidas)",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Recarga Rápida",
+    "offense": true,
+    "defense": false,
+    "critical": false,
+    "when": "",
+    "description": "Reduz a recarga em 1 turno por vez escolhido; a 0, recarrega como Ação Livre",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Abate Silencioso",
+    "offense": true,
+    "defense": false,
+    "critical": false,
+    "when": "",
+    "description": "Só contra alvo surpreso, no primeiro ataque. Impede gritos ou alarme na Rodada; se causar Ferimento Sério ou incapacitar, o alvo falha automaticamente na Tolerância",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Firmar-se (Stand Fast)",
+    "offense": false,
+    "defense": true,
+    "critical": false,
+    "when": "",
+    "description": "Evita Knockback e Empurrar",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Atordoar Local",
+    "offense": true,
+    "defense": false,
+    "critical": false,
+    "when": "",
+    "description": "Só contundente ou Desarmado, se passar a armadura. Tolerância oposta; se falhar, o local fica inutilizado por turnos iguais ao dano. Peito ou abdômen: só pode se defender. Cabeça: sem ações pela duração",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Derrubar",
+    "offense": true,
+    "defense": true,
+    "critical": false,
+    "when": "",
+    "description": "Musculatura, Evasão ou Acrobacias (escolha do alvo) oposta; se falhar, cai. Mais de duas pernas: Atletismo, um grau mais fácil",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Recuar",
+    "offense": true,
+    "defense": true,
+    "critical": false,
+    "when": "",
+    "description": "Movimento Rápido para longe, sem rolagem de desengaje",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Contornar Defesa",
+    "offense": true,
+    "defense": false,
+    "critical": true,
+    "when": "Atacante com Crítico",
+    "description": "Escolha: ignorar a armadura do local (ou PA de fonte externa, como Campo de Força); ignorar a cobertura (ou tiro de efeito: rola o dano duas vezes e fica com o menor); ou acertar como se a Evasão ou Aparar do alvo tivesse falhado",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Reforçar Defesa",
+    "offense": false,
+    "defense": true,
+    "critical": true,
+    "when": "Defensor com Crítico",
+    "description": "Escolha: Aparar desvia todo o dano, seja qual for o Tamanho; Preparar Contra-Ataque (escolhe um Efeito; pelo resto do combate, anula esse Efeito quando usado contra você e aplica outro não crítico ao oponente); ou Escapar (sai de Emaranhar, Agarrão ou Segurar sem gastar PA)",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Forçar Falha",
+    "offense": false,
+    "defense": true,
+    "critical": true,
+    "when": "Oponente com Falha Crítica",
+    "description": "Combinado com outro Efeito que pede rolagem oposta, o oponente falha automaticamente nela",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Maximizar Dano",
+    "offense": true,
+    "defense": false,
+    "critical": true,
+    "when": "Atacante com Crítico",
+    "description": "Um dos dados de dano da arma conta como valor máximo",
+    "srd": "combate.efeitos-especiais"
+  },
+  {
+    "name": "Selecionar Alvo",
+    "offense": true,
+    "defense": false,
+    "critical": true,
+    "when": "Atacante com Falha Crítica",
+    "description": "O defensor redireciona o ataque para outro alvo ao alcance",
+    "srd": "combate.efeitos-especiais"
+  }
+]
