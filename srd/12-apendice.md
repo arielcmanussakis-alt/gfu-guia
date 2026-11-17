@@ -90,10 +90,11 @@ Regras que o SRD v0.12 resumia como "como no Destined" ou que se perderam na tra
 | Mestre de Arquearia | Erro de digitação: é a mesma Especialização que Arquearia | 5.6 |
 | Requisitos de Especialização | Armas Brancas e Armas Improvisadas estavam com os requisitos trocados no v0.12; corrigido pela fonte | 5.6 |
 | Sobrenatural | Origem incorporada | 3.7 |
+| Características mínimas das Especializações | Escala por acesso (12 inicial, 13 comprável, 15 Especial, 16 Única), mantendo valores do texto original | 5.6 |
 
 ## Pendências ⚠ {#pendencias}
 
-1. **Especializações:** as Características mínimas foram aprovadas, mas a tabela aprovada precisa ser reenviada para entrar no cap. 5.6.
+1. **Bio-Engenharia Deviante:** a proposta aprovada dizia INT 16, mas o texto original da Especialização pede INT 17 e a regra era manter os valores já definidos. O SRD usa 17; confirmar.
 2. **Invenções e Malwares:** protótipo no cap. 11, para teste em mesa.
 3. **Mercenários:** faixas de Rank (C 0–24, B 25–49, A 50–74, S 75–100) e gastos de Reputação são proposta nova; confirmar após teste.
 4. **Energia Dissonante (Avatar):** o ritmo de perda de PP depois do limite de tempo não está definido.

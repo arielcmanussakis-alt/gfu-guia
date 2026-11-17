@@ -139,30 +139,59 @@ Especializações representam o topo da habilidade prática e se dividem em **Co
 
 **Para aprender uma Especialização**
 
-1. Cumprir os requisitos: a Característica mínima indicada na Especialização (em revisão: valores propostos aguardando aprovação) e os requisitos de perícia ou carreira.
+1. Cumprir os requisitos: a **Característica mínima** e os requisitos de perícia ou Carreira.
 2. Ter um Instrutor que ensine aquela Especialização. A compra na Loja substitui o Instrutor (aprendizado "autodidata"), mas não os requisitos.
 3. Dedicar um Downtime Médio ou Longo ao estudo (Comuns precisam de metade do tempo; Instrutores podem acelerar).
 4. Pagar o XP: **15 XP** se a Especialização é da sua Carreira; **20 XP** se não é. O Fabricante paga metade nas Especializações de Fabricação.
 
 **Lista inicial**
 
+**Característica mínima.** A escala acompanha o acesso: **12** na lista inicial, **13** nas compráveis, **15** nas Especiais e **16** nas Únicas. Valores que a Especialização já trazia no próprio texto foram mantidos. Para referência, o array Padrão chega a 14 e o Especializado a 16: a lista inicial está ao alcance de qualquer personagem novo.
+
 Comuns escolhem suas Especializações iniciais nesta lista. As demais vêm da Loja ou de Instrutores.
 
 | Especialização | Tipo | Efeito | Requisito |
 | --- | --- | --- | --- |
-| Artes Marciais | Combate | Desarmado causa 1d4+1 e conta como arma Média | Proficiente em Desarmado |
-| Arquearia | Combate | Recarga de arco e besta −1 (a 0, recarrega como Ação Livre); com arco ou besta, pode mover o local de acerto para um adjacente | Proficiente num Estilo com arco ou besta |
-| Armas de Longo Alcance | Combate | Mirar reduz modificadores situacionais em dois graus; com a arma apoiada, o próximo ataque fica um grau mais fácil | Proficiente num Estilo com rifles |
-| Armas Improvisadas | Combate | Sem penalidade com armas improvisadas de tamanho Grande ou menor; com Grande ou maior, dano dobrado para calcular Empurrar | Expert num Estilo corpo a corpo; Carreira Mercenário, Soldado ou Lutador |
-| Armas Brancas | Combate | Todas as armas brancas causam +1 passo de dano | Proficiente num Estilo com armas brancas |
-| Defesa Contra Superpoderes | Fabricação | Analisa poderes com Conhecimento (Superhumanos) ou Ciência; um plano tático bem-sucedido dá +10% aos aliados (ou −10% ao alvo) na primeira rodada; cria contramedidas improvisadas | Treinado em Conhecimento (Superhumanos) |
-| Hacking | Fabricação | Testes de Computadores para hackear ignoram até 2 graus de dificuldade; criar Malware leva metade do tempo | Treinado em Computadores; Carreira Hacker |
-| Engenharia Robótica | Fabricação | Projeta e repara computadores, drones e robôs; Tarefas Estendidas de construção −25% de tempo; reparos improvisados | Treinado em Engenharia (Robótica) |
-| Trajes Avançados | Fabricação | Artesanato (Trajes) um grau mais fácil; Tarefas Estendidas de traje na metade do tempo; integra módulos de outros dispositivos | Treinado em Artesanato (Trajes) |
-| Acrobacias e Parkour | Profissão | Em ambientes com obstáculos, um teste Fácil de Acrobacias ignora penalidades de movimento; escala à velocidade normal | Treinado em Acrobacias |
-| Hipnotismo e Leitura Corporal | Profissão | Extrai verdades com Influência contra Força de Vontade; Intuição para detectar mentira fica um grau mais fácil | Proficiente em Influência |
-| Persuasão e Negociação | Profissão | Influência e Dissimulação para convencer ou negociar ficam um grau mais fáceis (dois se o alvo já estiver predisposto) | Proficiente em Influência ou Dissimulação |
-| Disfarce e Infiltração | Profissão | Dissimulação para se passar por outro e Falsificação de apoio ficam um grau mais fáceis; preparar disfarce leva metade do tempo | Treinado em Falsificação |
-| Encobrimento e Limpeza de Cena | Profissão | Percepção para achar vestígios e Prestidigitação ou Furtividade para ocultá-los ficam um grau mais fáceis; investigadores ficam um grau mais difíceis | Expert em Furtividade ou treinado em Prestidigitação |
+| Artes Marciais | Combate | Desarmado causa 1d4+1 e conta como arma Média | Proficiente em Desarmado; DES 12 |
+| Arquearia | Combate | Recarga de arco e besta −1 (a 0, recarrega como Ação Livre); com arco ou besta, pode mover o local de acerto para um adjacente | Proficiente num Estilo com arco ou besta; DES 12 |
+| Armas de Longo Alcance | Combate | Mirar reduz modificadores situacionais em dois graus; com a arma apoiada, o próximo ataque fica um grau mais fácil | Proficiente num Estilo com rifles; DES 12 |
+| Armas Improvisadas | Combate | Sem penalidade com armas improvisadas de tamanho Grande ou menor; com Grande ou maior, dano dobrado para calcular Empurrar | Expert num Estilo corpo a corpo; Carreira Mercenário, Soldado ou Lutador; FOR 12 |
+| Armas Brancas | Combate | Todas as armas brancas causam +1 passo de dano | Proficiente num Estilo com armas brancas; FOR 12 |
+| Defesa Contra Superpoderes | Fabricação | Analisa poderes com Conhecimento (Superhumanos) ou Ciência; um plano tático bem-sucedido dá +10% aos aliados (ou −10% ao alvo) na primeira rodada; cria contramedidas improvisadas | Treinado em Conhecimento (Superhumanos); INT 12 |
+| Hacking | Fabricação | Testes de Computadores para hackear ignoram até 2 graus de dificuldade; criar Malware leva metade do tempo | Treinado em Computadores; Carreira Hacker; INT 12 |
+| Engenharia Robótica | Fabricação | Projeta e repara computadores, drones e robôs; Tarefas Estendidas de construção −25% de tempo; reparos improvisados | Treinado em Engenharia (Robótica); INT 12 |
+| Trajes Avançados | Fabricação | Artesanato (Trajes) um grau mais fácil; Tarefas Estendidas de traje na metade do tempo; integra módulos de outros dispositivos | Treinado em Artesanato (Trajes); INT 12 |
+| Acrobacias e Parkour | Profissão | Em ambientes com obstáculos, um teste Fácil de Acrobacias ignora penalidades de movimento; escala à velocidade normal | Treinado em Acrobacias; DES 12 |
+| Hipnotismo e Leitura Corporal | Profissão | Extrai verdades com Influência contra Força de Vontade; Intuição para detectar mentira fica um grau mais fácil | Proficiente em Influência; CAR 12 |
+| Persuasão e Negociação | Profissão | Influência e Dissimulação para convencer ou negociar ficam um grau mais fáceis (dois se o alvo já estiver predisposto) | Proficiente em Influência ou Dissimulação; CAR 12 |
+| Disfarce e Infiltração | Profissão | Dissimulação para se passar por outro e Falsificação de apoio ficam um grau mais fáceis; preparar disfarce leva metade do tempo | Treinado em Falsificação; CAR 12 |
+| Encobrimento e Limpeza de Cena | Profissão | Percepção para achar vestígios e Prestidigitação ou Furtividade para ocultá-los ficam um grau mais fáceis; investigadores ficam um grau mais difíceis | Expert em Furtividade ou treinado em Prestidigitação; INT 12 |
 
 O texto do Livro v4 (p.14) listava outras Especializações só com descrição; elas passam a valer conforme o texto publicado na Loja.
+
+**Características mínimas das demais Especializações**
+
+| Especialização | Tipo | Acesso | Mínimo |
+| --- | --- | --- | --- |
+| Ataque Hemorrágico | Combate | Comprável | DES 13 |
+| Luta de Rua | Combate | Comprável | FOR 13 |
+| Uso de Chicotes | Combate | Comprável | DES 13 |
+| Combatente Sensorial | Combate | Comprável | INT 15 (do texto original) |
+| Arremesso Improvisado | Combate | Comprável | DES 13 |
+| Ambidestro | Combate | Comprável | DES 13 |
+| Ataques de Fixação | Combate | Comprável | DES 13 |
+| Armas de Haste | Combate | Comprável | FOR 13 |
+| Evasivo | Combate | Comprável | DES 13 |
+| Químico Autodidata | Fabricação | Comprável | INT 13 |
+| Engenharia Robótica Avançada | Fabricação | Comprável | INT 17 (do texto original) |
+| Arsenal de Truques | Fabricação | Loja | INT 13 |
+| Criptografia e Cibersegurança | Profissão | Comprável | INT 13 |
+| Protocolos de Contenção | Profissão | Comprável | INT 13 |
+| Mestre do Escudo | Combate | Especial | FOR 15 |
+| Assassino Treinado | Combate | Especial | DES 15 |
+| Bio-Engenharia Deviante | Fabricação | Única | INT 17 (do texto original) |
+| Mestre da Graxa e do Asfalto | — | Única | DES 16 |
+
+"Mestre de Arquearia", da Loja, é a mesma Especialização que Arquearia (lista inicial), com o mesmo mínimo.
+
+Especializações novas seguem a mesma escala.
