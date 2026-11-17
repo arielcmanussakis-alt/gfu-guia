@@ -37,12 +37,20 @@ O número máximo de Poderes Principais, Secundários e Amplificações por pode
 - **Pseudogenético:** o Poder Secundário inicial não conta no limite.
 - **Místico — Sensitivo:** usa Slots de Sintonização (cap. 4).
 - **Comum:** não tem poderes, salvo por Artefatos específicos.
+- **Sobrenatural:** escolhe poderes pelos temas da Conexão, não por Árvore; ganha um Poder Secundário extra ao chegar a 50% de Conexão Base (3.7).
 
 Novo Poder Principal ou Secundário custa **20 XP**, para todas as Origens. Poderes Principais novos exigem Downtime Longo; Secundários, Downtime Médio (cap. 7).
 
 ## 6.4 Pontos de Poder {#pontos-de-poder}
 
-PP alimentam as Amplificações. O valor máximo e a recuperação estão no cap. 2. Com PP zerado, os poderes base continuam funcionando, mas as Amplificações não, e o super-humano sofre os efeitos de Fadiga mais rápido (cap. 8.8; quanto mais rápido fica a critério do Mestre). O Ponto de Sorte **Reserva de Poder** recupera 1d4+1 PP (cap. 8.9).
+PP alimentam as Amplificações. O valor máximo e a recuperação estão no cap. 2.
+
+**PP zerado:**
+
+- O personagem sofre **1 nível de Fadiga** na hora (cap. 8.8).
+- Todo uso de poder termina e nenhum poder pode ser ativado até recuperar PP, exceto os **Sempre Ativos**.
+- Enquanto estiver com 0 PP, todo efeito de Fadiga tem impacto dobrado: cada nível sofrido conta como dois.
+- O Ponto de Sorte **Reserva de Poder** recupera 1d4+1 PP (cap. 8.9).
 
 ## 6.5 Amplificações {#amplificacoes}
 
@@ -78,7 +86,7 @@ Todo super-humano tem limites, por equilíbrio e como gancho narrativo.
 | Limitação Geral | O personagem inteiro (geralmente ligada à Origem) | 16 XP |
 | Limitação Irremovível | Poder ou Origem específicos | Não pode ser removida pelos meios normais |
 
-**Mínimo de Limitações por poder:** todo poder novo, seja Poder Principal Original ou comprado depois, vem com no mínimo **2 Limitações de Poder**. A partir de **Tempestade I (Patamar 11)**, o mínimo cai para **1**.
+**Mínimo de Limitações por poder:** todo poder, seja o Poder Principal Original ou comprado depois, tem no mínimo **2 Limitações de Poder** nos Patamares Ventania e Incêndio (1–10) e **1** nos Patamares Tempestade e Terremoto (11–20). Não existe mínimo por ficha: o das Classes de Maestria do Livro v4 caiu com a v0.5.
 
 **Exceção — Pseudogenético:** começa com 1 Limitação extra na criação, e todo poder novo vem **sempre com 3 Limitações**, em qualquer Patamar. As Limitações acima do mínimo geral podem ser removidas normalmente (8 XP cada).
 

@@ -20,7 +20,7 @@ visibility: all
 8. **Paixões** (2.7), **Classe Social e Estilo de Vida** (2.6).
 9. **Limitações** dos poderes (cap. 6) e **equipamento inicial** pela Cultura, Profissão e equipe.
 
-Nos passos 5 a 7, cada perícia recebe no mínimo 5 e no máximo 15 pontos por etapa. **Misticismo e as perícias de Caminho não recebem pontos** na criação; começam no valor base.
+Nos passos 5 a 7, cada perícia recebe no mínimo 5 e no máximo 15 pontos por etapa. **Misticismo, as perícias de Caminho e a Conexão Base não recebem pontos** na criação; começam no valor base.
 
 **Método alternativo (opcional):** em vez dos passos 5 a 7, escolha 15 perícias entre as Básicas e Profissionais de Cultura e Profissão e aplique os bônus fixos: 1 perícia com +50%, 2 com +40%, 3 com +30%, 4 com +20% e 5 com +10%. O total equivale aos 350 pontos do método padrão. O Comum soma a isso seus 50 pontos livres extras (cap. 3.4), com o mesmo limite de 15 por perícia.
 
@@ -53,9 +53,9 @@ O limite inicial de Característica é 18; ele sobe com o Patamar (cap. 7).
 | Pontos de Vida | CON+TAM por local, tabela abaixo (+1 em todos os locais nos Patamares 6, 11 e 16) |
 | Bônus de Iniciativa | Média de DES e INT, arredondada para cima (+1 no Patamar 8) |
 | Pontos de Sorte | POD: 6 ou menos 1; 7–12 2; 13–18 3; +1 a cada 6 pontos acima (+1 no Patamar 13) |
-| Pontos de Poder | POD−2; recupera 1 por hora, 2 por hora descansando (+2 nos Patamares 4, 9, 14 e 19) |
+| Pontos de Poder | POD−2; recupera 1 por hora, 2 por hora descansando (Mutação: 1 a cada 6 horas) (+2 nos Patamares 4, 9, 14 e 19) |
 | Movimento | 6 m |
-| Tenacidade | Igual a POD (recurso psíquico; ver 4.1) |
+| Tenacidade | Igual a POD; recupera 1 por semana (abaixo) |
 
 O Modificador de Experiência soma-se a cada recompensa de XP (mínimo de 1 XP por recompensa) e não se aplica a Eventos Globais.
 
@@ -70,6 +70,12 @@ O Modificador de Experiência soma-se a cada recompensa de XP (mínimo de 1 XP p
 | Peito | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | +1 |
 | Cada braço | 1 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | +1 |
 | Cabeça | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | +1 |
+
+**Tenacidade** é a resistência psíquica do personagem (Mythras Companion). Poderes, traumas e efeitos místicos causam dano a ela.
+
+- **Recuperação:** 1 ponto por semana (o Estilo de Vida altera esse valor, 2.6).
+- **Metade ou menos:** o personagem sofre uma **Aflição Mental** temporária (Mythras Companion): imediata, por algumas Rodadas, ou adiada, por semanas ou meses.
+- **Negativa:** recupera só 1 ponto por mês, e o personagem sofre traumas e sequelas permanentes.
 
 **Pontos de Sorte:** não se recuperam por sessão. Voltam ao valor máximo no fim de cada Season; durante a Season, só por recompensa do Mestre ou por Refill (no máximo 1 Refill por sessão, cap. 10).
 

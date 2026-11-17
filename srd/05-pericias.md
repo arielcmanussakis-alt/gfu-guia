@@ -87,8 +87,9 @@ Só podem ser usadas se estiverem na ficha. Algumas exigem especialização (ind
 | Emanação | INT+POD | Místico — Avatar |
 | Sexto Sentido | INT+POD | Místico — Sensitivo |
 | Vínculo | POD+CAR | Místico — Invocador |
+| Conexão Base | POD+CAR | Sobrenatural (sobe só pelas regras da Origem, 3.7) |
 
-Não recebem pontos na criação. Evoluem com XP pela tabela de perícias e respeitam o hard cap (cap. 7).
+Não recebem pontos na criação. As do Místico evoluem com XP pela tabela de perícias e respeitam o hard cap (cap. 7).
 
 ## 5.5 Estilos de Combate {#estilos-de-combate}
 
@@ -152,8 +153,8 @@ Comuns escolhem suas Especializações iniciais nesta lista. As demais vêm da L
 | Artes Marciais | Combate | Desarmado causa 1d4+1 e conta como arma Média | Proficiente em Desarmado |
 | Arquearia | Combate | Recarga de arco e besta −1 (a 0, recarrega como Ação Livre); com arco ou besta, pode mover o local de acerto para um adjacente | Proficiente num Estilo com arco ou besta |
 | Armas de Longo Alcance | Combate | Mirar reduz modificadores situacionais em dois graus; com a arma apoiada, o próximo ataque fica um grau mais fácil | Proficiente num Estilo com rifles |
-| Armas Improvisadas | Combate | Sem penalidade com armas improvisadas de tamanho Grande ou menor; com Grande ou maior, dano dobrado para calcular Empurrar | Expert num Estilo corpo a corpo |
-| Armas Brancas | Combate | Todas as armas brancas causam +1 passo de dano | Carreira Mercenário, Soldado ou Lutador |
+| Armas Improvisadas | Combate | Sem penalidade com armas improvisadas de tamanho Grande ou menor; com Grande ou maior, dano dobrado para calcular Empurrar | Expert num Estilo corpo a corpo; Carreira Mercenário, Soldado ou Lutador |
+| Armas Brancas | Combate | Todas as armas brancas causam +1 passo de dano | Proficiente num Estilo com armas brancas |
 | Defesa Contra Superpoderes | Fabricação | Analisa poderes com Conhecimento (Superhumanos) ou Ciência; um plano tático bem-sucedido dá +10% aos aliados (ou −10% ao alvo) na primeira rodada; cria contramedidas improvisadas | Treinado em Conhecimento (Superhumanos) |
 | Hacking | Fabricação | Testes de Computadores para hackear ignoram até 2 graus de dificuldade; criar Malware leva metade do tempo | Treinado em Computadores; Carreira Hacker |
 | Engenharia Robótica | Fabricação | Projeta e repara computadores, drones e robôs; Tarefas Estendidas de construção −25% de tempo; reparos improvisados | Treinado em Engenharia (Robótica) |

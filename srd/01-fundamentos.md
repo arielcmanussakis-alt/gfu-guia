@@ -25,7 +25,7 @@ O Livro Auxiliar v4 e os Patch Notes v0.1–v0.11 ficam como histórico.
 | --- | --- |
 | Características | Os sete valores base: FOR, CON, TAM, DES, INT, POD, CAR. |
 | Atributos | Valores derivados: Pontos de Ação, Modificador de Dano, Modificador de Experiência, Taxa de Cura, Pontos de Vida, Bônus de Iniciativa, Pontos de Sorte, Pontos de Poder, Movimento. |
-| Perícias | Valores percentuais. Básicas (todos têm), Profissionais (precisam ser adquiridas), Estilos de Combate, Perícias de Origem (Misticismo e perícias de Caminho). |
+| Perícias | Valores percentuais. Básicas (todos têm), Profissionais (precisam ser adquiridas), Estilos de Combate, Perícias de Origem (Misticismo, perícias de Caminho e Conexão Base). |
 | XP | Pontos de Experiência. Única moeda de progressão. Substitui os termos "Rolagem de Experiência" e "EXP". |
 | Patamar | Nível do personagem (1–20), definido pelo XP gasto. Agrupado em Níveis de Ameaça: Ventania, Incêndio, Tempestade, Terremoto. |
 | Poder Principal | Poder completo, amplificável. Substitui o termo "Poder Central". |
@@ -59,7 +59,7 @@ Qualquer que seja o valor ajustado, **01–05 é sempre Sucesso** e **96–00 é
 
 ## 1.4 Graus de dificuldade {#graus-de-dificuldade}
 
-O GFU usa os **graus multiplicativos** do Destined. O crítico é calculado sobre o valor ajustado.
+O GFU usa os **graus multiplicativos** do Destined, com os valores da rolagem do Foundry. O crítico é calculado sobre o valor ajustado.
 
 | Grau | Efeito na perícia |
 | --- | --- |
@@ -69,12 +69,12 @@ O GFU usa os **graus multiplicativos** do Destined. O crítico é calculado sobr
 | Padrão | Sem alteração |
 | Difícil | −1/3 do valor |
 | Formidável | Metade |
-| Hercúleo | 1/5 do valor |
+| Hercúleo | 1/10 do valor |
 | Impossível | Não pode ser tentado |
 
 Modificadores de mesmo sentido não se somam: usa-se o pior (ou o melhor). Com modificadores mistos, conte quantos passos o negativo está do Padrão e aplique-os a partir do positivo. Expressões como "+1 Nível de Dificuldade" significam um grau mais difícil; "−1 Nível" significa um grau mais fácil.
 
-> [!aviso] **Divergência conhecida:** o sistema Mythras do Foundry calcula Hercúleo como 1/10 da perícia; o Destined usa 1/5. Até a staff decidir, a mesa usa o valor que a ficha mostrar e registra o caso (Apêndice).
+> [!nota] Hercúleo é 1/10 da perícia, como na rolagem do Foundry (o Destined usa 1/5).
 
 **Bônus fixos em %** continuam existindo em casos específicos (Disposição Social, Posto em Círculos, bônus de Paixão, +10% de alguns efeitos). Eles somam ao valor da perícia e não mudam o grau.
 

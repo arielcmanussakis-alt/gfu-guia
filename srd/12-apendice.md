@@ -63,7 +63,7 @@ Regras que o SRD v0.12 resumia como "como no Destined" ou que se perderam na tra
 | Paixões | Base por objeto; mudança por acontecimento (1d10, +5, +10) | 2.7 |
 | Profissões Múltiplas | "Maduro" = 20 anos ou mais | 2.5 |
 | Medicina | **Errata de tradução:** o 1d3 é para Ferimento Sério, não Grave | 8.7 |
-| Tratamento e cura natural | Tabela de Primeiros Socorros e Medicina; 12 h (Leve), 24 h (Sério), semana (Grave) | 8.7 |
+| Tratamento e cura natural | Tabela de Primeiros Socorros e Medicina; taxas de cura natural (ver terceira rodada) | 8.7 |
 | Tolerância por ferimento | Sempre oposta, sem dificuldade crescente (v0.4) | 8.7 |
 | Cobertura, Knockback, Ataque com Salto, distância | Regras do Destined por escrito | 8.6 |
 | Fadiga | Tabela de níveis, recuperação, esforço, sono, asfixia | 8.8 |
@@ -73,20 +73,37 @@ Regras que o SRD v0.12 resumia como "como no Destined" ou que se perderam na tra
 | Legado | Tabela de estimativa recalculada (as faixas de XP estavam inconsistentes) | 7.7 |
 | Agentes | Itens requisitados voltam no fim da missão; gatilhos de aposentadoria | 9.5 |
 
+## Decisões da terceira rodada {#decisoes-da-terceira-rodada}
+
+| Tema | Decisão | Onde |
+| --- | --- | --- |
+| Hercúleo | 1/10 da perícia, como no Foundry | 1.4 |
+| Veículos | Vale o módulo (7 passos; escudos que absorvem e se desgastam) | 8.10 |
+| Tenacidade | Recupera 1 por semana; metade ou menos causa Aflição Mental temporária; negativa recupera 1 por mês e deixa sequelas permanentes | 2.3 |
+| Cura de ferimentos | Padrão Mythras: Leve por dia, Sério por semana, Grave por mês (substitui as taxas do Destined da v0.13 inicial) | 8.7 |
+| Ferimento Grave sem tratamento | Opcional do Destined adotado: perde 1d3 PV permanentes | 8.7 |
+| Ferimento Sério no tronco | Cabeça, peito ou abdômen penalizam todos os testes | 8.7 |
+| Recuperação Lenta (Mutação) | 1 PP a cada 6 horas (padrão: 1 por hora) | 3.2, 2.3 |
+| PP zerado | 1 nível de Fadiga na hora; encerra todos os poderes, exceto Sempre Ativos; Fadiga com impacto dobrado. Substitui o Livro v4, em que os poderes base continuavam ativos | 6.4 |
+| Limitações | 2 por poder em Ventania e Incêndio, 1 em Tempestade e Terremoto; sem mínimo por ficha | 6.6 |
+| Renda | Profissões nas duas listas escolhem a forma de renda a cada mês | 10.2 |
+| Mestre de Arquearia | Erro de digitação: é a mesma Especialização que Arquearia | 5.6 |
+| Requisitos de Especialização | Armas Brancas e Armas Improvisadas estavam com os requisitos trocados no v0.12; corrigido pela fonte | 5.6 |
+| Sobrenatural | Origem incorporada | 3.7 |
+
 ## Pendências ⚠ {#pendencias}
 
-1. **Especializações:** Características mínimas propostas, aguardando aprovação para entrar no cap. 5.6.
+1. **Especializações:** as Características mínimas foram aprovadas, mas a tabela aprovada precisa ser reenviada para entrar no cap. 5.6.
 2. **Invenções e Malwares:** protótipo no cap. 11, para teste em mesa.
 3. **Mercenários:** faixas de Rank (C 0–24, B 25–49, A 50–74, S 75–100) e gastos de Reputação são proposta nova; confirmar após teste.
-4. **Hercúleo:** o Destined usa 1/5 da perícia; o sistema Mythras do Foundry usa 1/10 (e o módulo de veículos segue o Foundry). Escolher um valor e alinhar ficha, módulos e SRD.
-5. **Veículos:** o SRD segue o Livro v4 e o módulo (7 passos de velocidade; escudos que absorvem e se desgastam). O Destined usa 9 passos e escudos que bloqueiam todo dano até o seu valor. Confirmar.
-6. **Tenacidade:** o valor é POD, mas a recuperação base não está escrita (o Estilo de Vida altera "por semana de Downtime").
-7. **Recuperação Lenta (Mutação):** sem número. Sugestão para decidir: PP recuperam 1 a cada 2 horas.
-8. **Energia Dissonante (Avatar):** o ritmo de perda de PP depois do limite de tempo não está definido.
-9. **PP zerado e Fadiga:** "sofre Fadiga mais rápido" não tem número.
-10. **Mínimo de Limitações por ficha:** as Classes de Maestria do Livro v4 pediam 3 ou 4 Limitações na ficha; a v0.5 trocou as Classes por Patamares e não repetiu esse mínimo. Confirmar que caiu.
-11. **Renda:** Artista Digital, Jornalista e Treinador Físico aparecem em Renda Fixa e em Freelancers. Definir se escolhem uma forma por mês ou acumulam.
-12. **Ferimento Grave sem tratamento:** o Destined (opcional) faz o local perder 1d3 PV permanentes se ficar sem tratamento por dias iguais à Taxa de Cura. Adotar ou não.
-13. **Ferimento Sério no tronco:** o Destined aplica a penalidade a todos os testes quando o Sério é na cabeça, peito ou abdômen; o Livro v4 fala só em "tarefas que usam o local". Confirmar a leitura.
-14. **Catálogo:** Mestre de Arquearia duplica Especialista em Arquearia na Loja.
-
+4. **Energia Dissonante (Avatar):** o ritmo de perda de PP depois do limite de tempo não está definido.
+5. **Recuperação Lenta e descanso:** o descanso dobra também a recuperação da Mutação (1 PP a cada 3 horas)?
+6. **Tenacidade em −POD:** no Mythras Companion, o personagem sai de jogo. Adotar?
+7. **Sobrenatural, pontos de texto a confirmar:**
+   - Ressonância Anti-Arcana: o original diz "adjacente a você 14 metros". O SRD usa "a até 14 m"; confirmar se não é POD metros ou 1–4 m.
+   - Transcendência Corporal: o original fixa "INT, POD, CAR"; o SRD usa as três Características favorecidas pela Conexão.
+   - Chamado Irresistível: padronizado como +1%.
+   - Aura Inquietante: "a penalidade da Marca se agrava" virou dois graus.
+   - Poder Adicional: o Poder Secundário vem só quando a Conexão Base chega a 50%, ou também ao Forçar Conexão até esse limiar?
+   - Conexão Base pode ser comprada com XP? O SRD diz que não.
+   - Apoteose conta como morte para o Legado (70%)?

@@ -38,6 +38,8 @@ Faltas e descompromisso deixam o teste mais difícil, a critério do Mestre. Tr�
 
 **Freelancers e Contratos** — Artista, Artista Digital, Criminoso, Charlatão, Empreendedor, Explorador, Hacker, Influencer Digital, Jornalista, Mercenário, Místico, Lutador, Treinador Físico. Cada trabalho alinhado à profissão rende um pagamento definido pelo Mestre conforme a magnitude. O Downtime pode ser usado para trabalhos de freelance.
 
+Artista Digital, Jornalista e Treinador Físico estão nas duas listas: a cada mês, o jogador escolhe uma das duas formas de renda.
+
 **Renda Passiva** — Playboy/Playgirl, Empreendedor e personagens de Classe Média ou superior recebem uma renda mensal sem teste: Classe Média $1.500, Classe Alta $10.000, Riqueza $50.000. Um erro grave pode interromper esse fluxo.
 
 ## 10.3 Divisão Delta: salário e orçamento {#divisao-delta-salario-e-orcamento}

@@ -17,7 +17,7 @@ O poder do Místico vem de um vínculo com um Artefato. Todo Místico segue um *
 - **Custo de poderes:** 20 XP, como todas as Origens.
 - **Desvantagens herdadas do Livro:** poderes novos são ligados ao Poder Principal Original e definidos pelo Mestre a partir do Artefato ou da escola; o Místico tem uma Limitação Geral passiva Irremovível.
 - **Tier III:** precisa de Instrutor, pela Regra de Familiaridade aplicada ao princípio do Artefato (cap. 7).
-- **Tenacidade:** vários efeitos do Místico causam dano à Tenacidade, recurso psíquico do Mythras Companion. No GFU, Tenacidade é igual ao valor de POD.
+- **Tenacidade:** vários efeitos do Místico causam dano à Tenacidade (igual a POD; recuperação e efeitos em 2.3).
 
 ## 4.2 Artefatos e Sintonização {#artefatos-e-sintonizacao}
 

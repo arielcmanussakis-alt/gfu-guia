@@ -141,7 +141,7 @@ Lista do Mythras Destined, com o Atirador (Marksman, do Mythras Firearms). "Of."
 | Ferimento | Quando acontece | Efeito |
 | --- | --- | --- |
 | Leve | PV do local acima de 0 | Dói e sangra, sem penalidade |
-| Sério | PV do local em 0 ou menos | O local não pode atacar por 1d3 turnos (ainda pode defender). Teste de **Tolerância oposto à rolagem de ataque**: falha deixa o membro inútil, ou causa inconsciência se for cabeça, peito ou abdômen, até um Primeiros Socorros bem-sucedido. Tarefas com aquele local ficam um grau mais difíceis até o ferimento voltar a Leve |
+| Sério | PV do local em 0 ou menos | O local não pode atacar por 1d3 turnos (ainda pode defender). Teste de **Tolerância oposto à rolagem de ataque**: falha deixa o membro inútil, ou causa inconsciência se for cabeça, peito ou abdômen, até um Primeiros Socorros bem-sucedido. Até o ferimento voltar a Leve, testes que usam aquele membro ficam um grau mais difíceis; na cabeça, peito ou abdômen, **todos** os testes. As penalidades de ferimentos diferentes se somam |
 | Grave | PV do local negativos em valor igual ou maior que o PV inicial | Incapacitado na hora. Teste de **Tolerância oposto à rolagem de ataque**: falha decepa ou destrói o membro, ou mata se for peito ou abdômen. **Grave na cabeça mata sem teste**, salvo uso de Ponto de Sorte. Sem tratamento iniciado em 2× Taxa de Cura minutos, o personagem morre de perda de sangue e choque |
 
 Os testes de Tolerância por ferimento são sempre **opostos à rolagem de ataque** (ou à Potência do Perigo, 8.11), sem dificuldade crescente a cada novo ferimento (v0.4). Modificadores de Origem: Pontos Fracos do Meta deixam esses testes um grau mais difíceis; o Gemini tem −2 PV na cabeça.
@@ -163,10 +163,12 @@ Cada perícia só pode ser aplicada **uma vez por ferimento**.
 
 ### Recuperação natural
 
-- **Leve:** o local recupera a Taxa de Cura a cada 12 horas de repouso.
-- **Sério:** a Taxa de Cura a cada 24 horas de repouso; quando os PV do local voltam a ser positivos, passa a curar como Leve.
-- **Grave:** não se cura sozinho. Exige um teste de Medicina bem-sucedido e tratamento profissional constante (hospital ou médico equipado); recupera a Taxa de Cura por semana.
-- Cada local cura separadamente. Atividade além da leve durante o repouso reduz a Taxa de Cura daquele período em 1d3. Acompanhamento de alguém com Medicina dobra a Taxa de Cura. Poderes de cura e regeneração aceleram o processo e estabilizam quem está morrendo.
+Segue o padrão do Mythras:
+
+- **Leve:** o local recupera a Taxa de Cura por **dia**.
+- **Sério:** a Taxa de Cura por **semana**; quando os PV do local voltam a ser positivos, passa a curar como Leve.
+- **Grave:** a Taxa de Cura por **mês**, e só depois de tratado com um teste de Medicina bem-sucedido. Se ficar sem tratamento por um número de dias igual à Taxa de Cura, o local perde 1d3 PV permanentes.
+- Cada local cura separadamente. Poderes de cura e regeneração aceleram o processo e estabilizam quem está morrendo.
 - Agentes contam com o Setor Médico, que corta pela metade o tempo de recuperação de Sérios e Graves (cap. 9.5).
 
 ## 8.8 Concentração e Fadiga {#concentracao-e-fadiga}
@@ -243,7 +245,7 @@ As escalas usadas na mesa são as do módulo **Gemini · Veículos**:
 | 91–98 | **Explosão imediata:** como acima, sem tempo para sair |
 | 99–00 | **Acidente catastrófico:** como Perda Total; ocupantes fazem Tolerância ou ficam com PV negativos iguais ao inicial em 1d6 locais |
 
-> [!aviso] O Destined usa 9 passos de velocidade e outra regra de escudos (bloqueiam o dano até o seu valor). O GFU segue o Livro v4 e o módulo de veículos; a diferença está registrada no Apêndice.
+> [!nota] Em veículos, vale o módulo: 7 passos de velocidade e escudos que absorvem e se desgastam (o Destined usa 9 passos e outra regra de escudos).
 
 ## 8.11 Perigos {#perigos}
 
