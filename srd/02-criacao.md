@@ -22,7 +22,7 @@ visibility: all
 
 Nos passos 5 a 7, cada perícia recebe no mínimo 5 e no máximo 15 pontos por etapa. **Misticismo e as perícias de Caminho não recebem pontos** na criação; começam no valor base.
 
-**Método alternativo (opcional):** em vez dos passos 5 a 7, escolha 15 perícias entre as Básicas e Profissionais de Cultura e Profissão e aplique os bônus fixos: 1 perícia com +50%, 2 com +40%, 3 com +30%, 4 com +20% e 5 com +10%. O total equivale aos 350 pontos do método padrão.
+**Método alternativo (opcional):** em vez dos passos 5 a 7, escolha 15 perícias entre as Básicas e Profissionais de Cultura e Profissão e aplique os bônus fixos: 1 perícia com +50%, 2 com +40%, 3 com +30%, 4 com +20% e 5 com +10%. O total equivale aos 350 pontos do método padrão. O Comum soma a isso seus 50 pontos livres extras (cap. 3.4), com o mesmo limite de 15 por perícia.
 
 ## 2.2 Características {#caracteristicas}
 
@@ -48,13 +48,14 @@ O limite inicial de Característica é 18; ele sobe com o Patamar (cap. 7).
 | --- | --- |
 | Pontos de Ação | 2 (+1 no Patamar 20) |
 | Modificador de Dano | FOR+TAM na tabela abaixo |
-| Modificador de Experiência | CAR: 6 ou menos −1; 7–12 0; 13–18 +1; +1 a cada 6 pontos acima |
+| Modificador de Experiência | CAR: 6 ou menos −1; 7–12 0; 13–18 +1; +1 a cada 6 pontos acima (+1 no Patamar 18) |
 | Taxa de Cura | CON: 6 ou menos 1; 7–12 2; 13–18 3; +1 a cada 6 pontos acima |
 | Pontos de Vida | CON+TAM por local, tabela abaixo (+1 em todos os locais nos Patamares 6, 11 e 16) |
-| Bônus de Iniciativa | Média de DES e INT, arredondada para cima |
+| Bônus de Iniciativa | Média de DES e INT, arredondada para cima (+1 no Patamar 8) |
 | Pontos de Sorte | POD: 6 ou menos 1; 7–12 2; 13–18 3; +1 a cada 6 pontos acima (+1 no Patamar 13) |
 | Pontos de Poder | POD−2; recupera 1 por hora, 2 por hora descansando (+2 nos Patamares 4, 9, 14 e 19) |
 | Movimento | 6 m |
+| Tenacidade | Igual a POD (recurso psíquico; ver 4.1) |
 
 O Modificador de Experiência soma-se a cada recompensa de XP (mínimo de 1 XP por recompensa) e não se aplica a Eventos Globais.
 
@@ -118,7 +119,7 @@ Os nomes de perícia foram normalizados para os do SRD (Enganar → Dissimulaç�
 | Trabalhador | Atletismo, Força de Vontade, Condução, Tolerância, Primeiros Socorros, Malandragem, Desarmado | Navegação, Artesanato (do trabalho), Cultura (Classe Trabalhadora), Demolição, Jogos de Azar, Sobrevivência | — |
 | Treinador Físico | Atletismo, Tolerância, Influência, Percepção, Força de Vontade, Intuição | Conhecimento (Ensino), Cultura (Esportiva), Conhecimento (Fisiologia ou Treinamento), Artesanato (Equipamentos Esportivos) | — |
 
-**Profissões Múltiplas:** um personagem pode ter até 3 Profissões (Primária + 2 Secundárias). Requisito para cada Profissão Secundária: INT 16+ ou idade "Maduro" (20–29+). A Secundária dá acesso à lista dela e permite escolher +2 Perícias Profissionais, e uma delas começa com +10% extras. Perícias repetidas não recebem bônus adicional. Profissões novas durante o jogo exigem tempo, treinamento e aprovação do Mestre.
+**Profissões Múltiplas:** um personagem pode ter até 3 Profissões (Primária + 2 Secundárias). Requisito para cada Profissão Secundária: INT 16+ ou 20 anos ou mais (a categoria de idade "Maduro" do Livro v4; personagens mais jovens só entram pela INT). A Secundária dá acesso à lista dela e permite escolher +2 Perícias Profissionais, e uma delas começa com +10% extras. Perícias repetidas não recebem bônus adicional. Profissões novas durante o jogo exigem tempo, treinamento e aprovação do Mestre.
 
 ## 2.6 Classe Social e Estilo de Vida {#classe-social-e-estilo-de-vida}
 
@@ -143,12 +144,29 @@ Depois, o jogador **escolhe o Estilo de Vida**, que fixa o Custo de Vida Mensal 
 
 ## 2.7 Paixões {#paixoes}
 
-Uma Paixão é um vínculo com pessoa, grupo, ideal, lugar ou objeto, escrito com um verbo (Proteger, Odiar, Buscar...). Na criação, escolha até 3; cada uma usa a soma de duas Características como base e recebe +40, +30 e +20, em ordem de importância.
+Uma Paixão é um vínculo com pessoa, grupo, ideal, lugar ou objeto, escrito com um verbo (Proteger, Odiar, Buscar...). Na criação, escolha até 3; cada uma recebe +40, +30 e +20, em ordem de importância, somados à base:
+
+| Objeto da Paixão | Base |
+| --- | --- |
+| Pessoa | POD+CAR |
+| Organização ou grupo | POD+INT |
+| Espécie ou cultura | POD×2 |
+| Lugar | POD+INT |
+| Objeto | POD×2 |
+| Conceito ou ideal | POD+INT |
+
+Paixões também podem ser medos, fobias ou códigos de conduta. Vale montar as Paixões em grupo, ligando os personagens entre si.
 
 Usos:
 
 - **Reforçar uma perícia:** soma 1/5 do valor da Paixão, quando o Mestre julgar apropriado.
-- **Decidir em dúvida:** um teste de Paixão bem-sucedido faz o personagem agir conforme ela.
-- **Resistir a manipulação:** a Paixão pode substituir a Força de Vontade contra efeitos que forcem o personagem a agir contra ela.
+- **Decidir em dúvida:** quando a situação envolve o objeto da Paixão, um teste bem-sucedido faz o personagem agir conforme ela; se falhar, ele decide livremente.
+- **Resistir a manipulação:** a Paixão pode substituir a Força de Vontade contra manipulação psicológica ou poderes mentais que forcem o personagem a agir contra ela.
 
-Paixões evoluem com XP pela tabela de perícias (cap. 7) e também podem subir ou cair por decisão do Mestre, conforme os acontecimentos.
+Paixões evoluem com XP pela tabela de perícias (cap. 7) e também sobem ou caem por decisão do Mestre, conforme os acontecimentos:
+
+| Acontecimento | Mudança |
+| --- | --- |
+| Fraco | 1d10 |
+| Moderado | 1d10+5 |
+| Forte | 1d10+10 |

@@ -50,8 +50,43 @@ Esta versão só **consolida**: resolve contradições entre o Livro v4 e os pat
 | Poder ANEXÁVEL | Paga 20 XP e segue Downtime e slots | 10.5 |
 | Legado | Regras completas incorporadas | 7.7 |
 
+## Revisão v0.13: regras recuperadas {#revisao-v013}
+
+Regras que o SRD v0.12 resumia como "como no Destined" ou que se perderam na tradução do Livro v4. Nenhuma muda o balanceamento; todas já valiam pela hierarquia de fontes (1.1) e agora estão escritas.
+
+| Tema | O que entrou | Onde |
+| --- | --- | --- |
+| Testes | 01–05 sempre Sucesso, 96–00 sempre Falha; Sucesso automático | 1.3 |
+| Auxílio | Crítico e Falha Crítica pela perícia ativa; ajudar aliado (1 PA em combate); poder como auxílio; limitar perícia | 1.6 |
+| Tarefas Estendidas | Progresso por nível de sucesso (+50/+25/0/−25%) | 1.7 |
+| Atributos | +1 Iniciativa no Patamar 8 e +1 Modificador de Experiência no 18 na tabela de 2.3; Tenacidade listada | 2.3 |
+| Paixões | Base por objeto; mudança por acontecimento (1d10, +5, +10) | 2.7 |
+| Profissões Múltiplas | "Maduro" = 20 anos ou mais | 2.5 |
+| Medicina | **Errata de tradução:** o 1d3 é para Ferimento Sério, não Grave | 8.7 |
+| Tratamento e cura natural | Tabela de Primeiros Socorros e Medicina; 12 h (Leve), 24 h (Sério), semana (Grave) | 8.7 |
+| Tolerância por ferimento | Sempre oposta, sem dificuldade crescente (v0.4) | 8.7 |
+| Cobertura, Knockback, Ataque com Salto, distância | Regras do Destined por escrito | 8.6 |
+| Fadiga | Tabela de níveis, recuperação, esforço, sono, asfixia | 8.8 |
+| Veículos | Escalas do módulo, forçar e frear, Manobra Evasiva, Abalroar, Perda de Controle | 8.10 |
+| Perigos e Quedas | Seções novas | 8.11, 8.12 |
+| Descoberta Revolucionária | Alinhada ao cap. 11 (conta como Crítico) | 3.4 |
+| Legado | Tabela de estimativa recalculada (as faixas de XP estavam inconsistentes) | 7.7 |
+| Agentes | Itens requisitados voltam no fim da missão; gatilhos de aposentadoria | 9.5 |
+
 ## Pendências ⚠ {#pendencias}
 
 1. **Especializações:** Características mínimas propostas, aguardando aprovação para entrar no cap. 5.6.
 2. **Invenções e Malwares:** protótipo no cap. 11, para teste em mesa.
 3. **Mercenários:** faixas de Rank (C 0–24, B 25–49, A 50–74, S 75–100) e gastos de Reputação são proposta nova; confirmar após teste.
+4. **Hercúleo:** o Destined usa 1/5 da perícia; o sistema Mythras do Foundry usa 1/10 (e o módulo de veículos segue o Foundry). Escolher um valor e alinhar ficha, módulos e SRD.
+5. **Veículos:** o SRD segue o Livro v4 e o módulo (7 passos de velocidade; escudos que absorvem e se desgastam). O Destined usa 9 passos e escudos que bloqueiam todo dano até o seu valor. Confirmar.
+6. **Tenacidade:** o valor é POD, mas a recuperação base não está escrita (o Estilo de Vida altera "por semana de Downtime").
+7. **Recuperação Lenta (Mutação):** sem número. Sugestão para decidir: PP recuperam 1 a cada 2 horas.
+8. **Energia Dissonante (Avatar):** o ritmo de perda de PP depois do limite de tempo não está definido.
+9. **PP zerado e Fadiga:** "sofre Fadiga mais rápido" não tem número.
+10. **Mínimo de Limitações por ficha:** as Classes de Maestria do Livro v4 pediam 3 ou 4 Limitações na ficha; a v0.5 trocou as Classes por Patamares e não repetiu esse mínimo. Confirmar que caiu.
+11. **Renda:** Artista Digital, Jornalista e Treinador Físico aparecem em Renda Fixa e em Freelancers. Definir se escolhem uma forma por mês ou acumulam.
+12. **Ferimento Grave sem tratamento:** o Destined (opcional) faz o local perder 1d3 PV permanentes se ficar sem tratamento por dias iguais à Taxa de Cura. Adotar ou não.
+13. **Ferimento Sério no tronco:** o Destined aplica a penalidade a todos os testes quando o Sério é na cabeça, peito ou abdômen; o Livro v4 fala só em "tarefas que usam o local". Confirmar a leitura.
+14. **Catálogo:** Mestre de Arquearia duplica Especialista em Arquearia na Loja.
+

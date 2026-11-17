@@ -42,7 +42,7 @@ Novo Poder Principal ou Secundário custa **20 XP**, para todas as Origens. Pode
 
 ## 6.4 Pontos de Poder {#pontos-de-poder}
 
-PP alimentam as Amplificações. O valor máximo e a recuperação estão no cap. 2. Com PP zerado, os poderes base continuam funcionando, mas as Amplificações não, e o super-humano sofre os efeitos de Fadiga mais rápido.
+PP alimentam as Amplificações. O valor máximo e a recuperação estão no cap. 2. Com PP zerado, os poderes base continuam funcionando, mas as Amplificações não, e o super-humano sofre os efeitos de Fadiga mais rápido (cap. 8.8; quanto mais rápido fica a critério do Mestre). O Ponto de Sorte **Reserva de Poder** recupera 1d4+1 PP (cap. 8.9).
 
 ## 6.5 Amplificações {#amplificacoes}
 

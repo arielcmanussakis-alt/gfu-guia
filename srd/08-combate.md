@@ -4,7 +4,7 @@ number: "8"
 title: Combate e ferimentos
 icon: fa-burst
 kicker: Resposta imediata
-description: Ações, Efeitos Especiais, ferimentos e Pontos de Sorte.
+description: Ações, Efeitos Especiais, ferimentos, cura, Fadiga, Pontos de Sorte, veículos, Perigos e quedas.
 visibility: all
 ---
 
@@ -120,7 +120,21 @@ Lista do Mythras Destined, com o Atirador (Marksman, do Mythras Firearms). "Of."
 - **Agarrão:** Desarmado oposto ao Estilo do alvo. Membro agarrado fica inútil; cabeça, peito ou abdômen deixam todos os testes do alvo um grau mais difíceis. Nos turnos seguintes, Desarmado causa dano igual ao Modificador de Dano no local preso (o alvo pode opor Desarmado ou Musculatura com 1 PA). Dura até o alvo ser incapacitado, Libertar-se ou usar Recuar.
 - **Mirar:** uma Rodada inteira mirando reduz em um grau a dificuldade de distância ou um modificador situacional. Rodadas extras não somam.
 - **Atirando na Multidão:** alvo na borda de uma multidão ou em corpo a corpo, um grau mais difícil; através do grupo, dois graus. Se falhar só por causa dessa penalidade, acerta um transeunte aleatório (que pode se defender). Efeitos valem só contra o alvo pretendido.
-- **Distância, cobertura e Knockback:** como no Destined.
+- **Ataque com Salto:** Atletismo oposto a Musculatura ou Evasão do alvo; um grau mais fácil para quadrúpedes ou para quem tem o dobro do TAM do alvo. Se vencer, o alvo cai com o atacante por cima, sem dano, e só se levanta quando o atacante sair ou com um Efeito como Levantar-se. Só contra alvos de até 2× o TAM. *Preparar para Impacto* ajuda a resistir.
+- **Cobertura:** protege os locais que encobre. Um ataque que acerta um local coberto precisa vencer os PA e PV da cobertura antes de atingir o personagem. Escolher Local contorna cobertura parcial. Agachar atrás de cobertura pequena ou de escudo dobra os locais protegidos. Contra cobertura total, o ataque através dela fica um grau mais difícil e não permite Escolher Local.
+- **Knockback:** se o dano antes da armadura (e de Resistência) passar do TAM do alvo, ele é arremessado 1 m para trás a cada 5 pontos acima do TAM. Se bater em algo ou alguém, ele (e quem foi atingido) faz Acrobacias Fácil ou Atletismo Padrão para não cair; à beira de um Perigo ou precipício, o Mestre pode permitir Atletismo como Ação Livre para se segurar. Só afeta alvos de até 2× o TAM do atacante. *Preparar para Impacto* e *Firmar-se* reduzem ou evitam.
+- **Distância (opcional, a critério do Mestre):** combina distância e TAM do alvo.
+
+| Distância | TAM até 10 | 11–20 | 21–40 | 41–80 | 81–150 | 151+ |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1–20 m | 1 grau mais difícil | — | 1 mais fácil | 1 mais fácil | 2 mais fáceis | 2 mais fáceis |
+| 21–40 m | 1 mais difícil | 1 mais difícil | — | 1 mais fácil | 1 mais fácil | 2 mais fáceis |
+| 41–60 m | 2 mais difíceis | 1 mais difícil | 1 mais difícil | — | 1 mais fácil | 1 mais fácil |
+| 61–80 m | 2 mais difíceis | 2 mais difíceis | 1 mais difícil | 1 mais difícil | — | 1 mais fácil |
+| 81–100 m | 3 mais difíceis | 2 mais difíceis | 2 mais difíceis | 1 mais difícil | 1 mais difícil | — |
+| 101–120 m | 3 mais difíceis | 3 mais difíceis | 2 mais difíceis | 2 mais difíceis | 1 mais difícil | 1 mais difícil |
+
+"—" = sem modificador. A cada 20 m além disso, a progressão continua.
 
 ## 8.7 Ferimentos {#ferimentos}
 
@@ -130,13 +144,55 @@ Lista do Mythras Destined, com o Atirador (Marksman, do Mythras Firearms). "Of."
 | Sério | PV do local em 0 ou menos | O local não pode atacar por 1d3 turnos (ainda pode defender). Teste de **Tolerância oposto à rolagem de ataque**: falha deixa o membro inútil, ou causa inconsciência se for cabeça, peito ou abdômen, até um Primeiros Socorros bem-sucedido. Tarefas com aquele local ficam um grau mais difíceis até o ferimento voltar a Leve |
 | Grave | PV do local negativos em valor igual ou maior que o PV inicial | Incapacitado na hora. Teste de **Tolerância oposto à rolagem de ataque**: falha decepa ou destrói o membro, ou mata se for peito ou abdômen. **Grave na cabeça mata sem teste**, salvo uso de Ponto de Sorte. Sem tratamento iniciado em 2× Taxa de Cura minutos, o personagem morre de perda de sangue e choque |
 
-Modificadores de Origem: Pontos Fracos do Meta deixam esses testes um grau mais difíceis; o Gemini tem −2 PV na cabeça.
+Os testes de Tolerância por ferimento são sempre **opostos à rolagem de ataque** (ou à Potência do Perigo, 8.11), sem dificuldade crescente a cada novo ferimento (v0.4). Modificadores de Origem: Pontos Fracos do Meta deixam esses testes um grau mais difíceis; o Gemini tem −2 PV na cabeça.
 
-**Cura:** Primeiros Socorros cura 1d3 e Medicina cura 1d6 (Leve) ou 1d3 (Grave), uma vez por ferimento. Ferimentos Leves e Sérios se curam naturalmente pela Taxa de Cura, como no Destined. Ferimentos Graves só se curam com tratamento médico profissional constante, recuperando a Taxa de Cura por semana.
+### Tratamento
+
+Cada perícia só pode ser aplicada **uma vez por ferimento**.
+
+| Situação | Primeiros Socorros | Medicina |
+| --- | --- | --- |
+| Ferimento Leve | Cura 1d3 PV | Cura 1d6 PV |
+| Ferimento Sério | Recupera o membro inutilizado ou a consciência; tira a penalidade do local por 1d3 minutos | Cura 1d3 PV, além do efeito de Primeiros Socorros |
+| Ferimento Grave | Estabiliza: evita a morte por perda de sangue e choque | Teste Fácil estabiliza; um sucesso inicia a recuperação (abaixo) |
+| Asfixia, sangramento, objeto cravado | Volta a respirar, estanca, retira o objeto sem novo dano | Idem |
+| Crítico | Cura o máximo (3), ou aplica o resultado a um Ferimento Sério | Leve volta ao máximo; Sério cura 1d6+1 |
+| Falha Crítica | Causa 1 PV de dano ao local | Causa 1d3 PV de dano ao local |
+
+> [!nota] O Livro v4 traduziu a cura de Medicina como "1d3 em Ferimento Grave". No Destined, o 1d3 é para Ferimento **Sério**; o texto foi corrigido.
+
+### Recuperação natural
+
+- **Leve:** o local recupera a Taxa de Cura a cada 12 horas de repouso.
+- **Sério:** a Taxa de Cura a cada 24 horas de repouso; quando os PV do local voltam a ser positivos, passa a curar como Leve.
+- **Grave:** não se cura sozinho. Exige um teste de Medicina bem-sucedido e tratamento profissional constante (hospital ou médico equipado); recupera a Taxa de Cura por semana.
+- Cada local cura separadamente. Atividade além da leve durante o repouso reduz a Taxa de Cura daquele período em 1d3. Acompanhamento de alguém com Medicina dobra a Taxa de Cura. Poderes de cura e regeneração aceleram o processo e estabilizam quem está morrendo.
+- Agentes contam com o Setor Médico, que corta pela metade o tempo de recuperação de Sérios e Graves (cap. 9.5).
 
 ## 8.8 Concentração e Fadiga {#concentracao-e-fadiga}
 
-Concentração segue o cap. 1.6. Níveis de Fadiga seguem o Mythras Destined.
+Concentração segue o cap. 1.6.
+
+**Fadiga** mede o desgaste físico ou mental. O grau de dificuldade da tabela vale como base para toda Ação; as penalidades numéricas não se somam (vale a da linha atual).
+
+| Nível | Grau das perícias | Movimento | Iniciativa | PA | Recuperação |
+| --- | --- | --- | --- | --- | --- |
+| Descansado | — | — | — | — | — |
+| Ofegante | Difícil | — | — | — | 15 minutos |
+| Cansado | Difícil | −1 m | — | — | 3 horas |
+| Fatigado | Formidável | −2 m | −2 | — | 6 horas |
+| Exausto | Formidável | Metade | −4 | −1 | 12 horas |
+| Debilitado | Hercúleo | Metade | −6 | −2 | 18 horas |
+| Incapacitado | Hercúleo | Imóvel | −8 | −3 | 24 horas |
+| Semiconsciente | Sem chance | Sem ações | — | — | 36 horas |
+| Inconsciente | Sem ações | — | — | — | 48 horas |
+| Morrendo | Morre em 2× Taxa de Cura minutos sem tratamento | | | | |
+
+- **Recuperar:** o tempo de repouso de cada nível é a Recuperação dividida pela Taxa de Cura; recupera-se do nível mais alto para o mais baixo.
+- **Esforço:** atividade leve exige Tolerância (ou Atletismo, ou Musculatura) Muito Fácil a cada CON horas; moderada, Fácil a cada CON minutos; extenuante, Padrão a cada CON segundos. Cada falha soma um nível.
+- **Sono:** sem dormir, o personagem aguenta 2× CON horas; depois, Tolerância a cada CON/2 horas, cada teste um grau mais difícil que o anterior.
+- **Asfixia:** prende a respiração por segundos iguais à Tolerância (metade, se pego de surpresa). Depois, Tolerância a cada Rodada: Crítico, nada; Sucesso, 1 nível; Falha, 1d2; Falha Crítica, 1d3. Fadiga de asfixia volta em geral a 1 nível por minuto de descanso.
+- **Estresse mental:** Força de Vontade no lugar de Tolerância; a Fadiga mental soma com a física.
 
 ## 8.9 Pontos de Sorte {#pontos-de-sorte}
 
@@ -156,3 +212,74 @@ Veículos têm **Tamanho**, **Casco** (Pontos de Armadura), **Estrutura** (Ponto
 - **Operação:** Condução (terrestres), Pilotar (aéreos), Canoagem (aquáticos). Manobras arriscadas pedem teste; falha pode causar Perda de Controle.
 - **Dano:** subtraia o Casco; o resto vai para a Estrutura. Dano que passa do Casco tem chance (em %, igual ao dano que passou) de atingir um Sistema. Estrutura a 0 = Perda Total.
 - **Perseguição:** rodadas de duração variável. Ações-chave são Rolagens Diferenciais da perícia de operação, que geram Pontos de Movimento e Efeitos adaptados (Forçar Erro, Ganhar Posição, Danificar Sistema). Colisões causam dano ao veículo e aos ocupantes conforme velocidade e tamanho.
+
+As escalas usadas na mesa são as do módulo **Gemini · Veículos**:
+
+- **Tamanho:** Pequeno, Médio, Grande, Imenso, Enorme, Colossal.
+- **Velocidade:** Parado, Lento, Moderado, Rápido, Muito rápido, Veloz, Extremo.
+- **Manuseio:** o grau de dificuldade base dos testes de controle do veículo.
+- **Impactos por Sistema** antes de falhar: Pequeno 1, Médio 2, Grande 3, Imenso 4, Enorme 5 (Colossal: definido pelo Mestre). Um Sistema danificado perde eficiência na proporção dos impactos.
+- **Escudos:** absorvem o dano antes do Casco e se desgastam com o que absorvem.
+
+**Forçar velocidade:** um teste da perícia de operação no grau de Manuseio sobe 1 passo por 1d6 minutos (1d12 com Crítico); um teste Hercúleo sobe 2 passos por 1d3 minutos. Manter além disso causa 1d3 impactos no motor.
+
+**Frear:** reduzir 1 passo por rodada não tem risco. Reduzir 2 passos de uma vez pede teste (falha: 1 impacto no motor). Reduzir 3 ou mais pede teste Hercúleo (sucesso: 1 impacto; falha: 1d2+1). Falha Crítica ao frear: 1d2+1 impactos e Perda de Controle.
+
+**Manobra Evasiva:** Reação, 1 PA, com a perícia de operação; Falha Crítica causa Perda de Controle.
+
+**Abalroar:** perícia de operação oposta à do outro piloto (ou à Evasão de uma pessoa). O dano é 1d6 por nível de Tamanho (Pequeno 1 a Enorme 5) +1d6 por passo de velocidade acima do alvo; quem abalroa sofre o mesmo dano (metade com aríete). O Casco reduz normalmente. Todos os veículos envolvidos testam a perícia de operação ou rolam Perda de Controle: Difícil em batida traseira ou lateral, Hercúleo em batida frontal.
+
+**Perda de Controle (1d100):**
+
+| 1d100 | Resultado |
+| --- | --- |
+| 01–25 | **Desvio:** −1 passo de velocidade por 5 segundos |
+| 26–40 | **Derrapagem:** −2 passos por 10 segundos |
+| 41–50 | **Rodopio ou pane:** para virado ao contrário por 15 segundos; aeronaves perdem o motor por 10 segundos |
+| 51–60 | **Capotamento leve:** 3d10 na Estrutura; ocupantes fazem Tolerância ou sofrem 1d10 em 1d3 locais |
+| 61–70 | **Capotamento grave:** 3d10+10 na Estrutura; ocupantes sofrem 1d10 em 1d3 locais (2d10 se falharem em Tolerância) |
+| 71–80 | **Perda Total:** Estrutura a 0; ocupantes como no capotamento grave |
+| 81–90 | **Incêndio:** como Perda Total; explode em 1d20+10 segundos; quem estiver a até 5 m sofre 1d6 de queimadura em 1d6 locais |
+| 91–98 | **Explosão imediata:** como acima, sem tempo para sair |
+| 99–00 | **Acidente catastrófico:** como Perda Total; ocupantes fazem Tolerância ou ficam com PV negativos iguais ao inicial em 1d6 locais |
+
+> [!aviso] O Destined usa 9 passos de velocidade e outra regra de escudos (bloqueiam o dano até o seu valor). O GFU segue o Livro v4 e o módulo de veículos; a diferença está registrada no Apêndice.
+
+## 8.11 Perigos {#perigos}
+
+Perigos são ameaças do ambiente: fogo, ácido, veneno, doença, radiação, objetos caindo, armadilhas. O Mestre define a **Intensidade**:
+
+| Intensidade | Dano imediato | Dano contínuo | Condições | Potência | Exemplos |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 1d6 | 1d2 | 1 | 40–50% | Objeto até TAM 10, ácido fraco, chama pequena |
+| 2 | 2d6 | 1d4 | 2 | 51–60% | Objeto TAM 11–20, ácido comum, maçarico |
+| 3 | 3d6 | 1d6 | 3 | 61–70% | Objeto TAM 21–30, ácido forte, fogueira, radiação forte |
+| 4 | 4d6 | 2d6 | 4 | 71–80% | Objeto TAM 31–40, solvente industrial, prédio em chamas |
+| 5 | 5d6 | 3d6 | 5 | 81–90% | Objeto TAM 41–50, banho químico, lava, núcleo de reator |
+| +1 | +1d6 | +1d6 | +1 | +10% | Cada +10 TAM; ameaças extremas |
+
+- **Potência** funciona como a perícia do Perigo: é oposta por Musculatura, Tolerância, Evasão ou Força de Vontade. Vencer evita o Perigo ou reduz o efeito; Falha Crítica sofre o dano máximo ou falha automaticamente no próximo teste. A Potência também substitui a rolagem de ataque nos testes de Tolerância por ferimento.
+- **Dano imediato** acontece uma vez; **contínuo** se repete a cada Rodada (ou intervalo definido) até o personagem sair ou neutralizar o Perigo. Alguns Perigos têm os dois.
+- **Armadura** protege contra Perigos parecidos com armas (corte, fogo, impacto). Gás, radiação e doenças pedem proteção específica.
+- **Locais:** Perigos parecidos com um golpe atingem um local aleatório; explosões, imersão e chamas podem atingir vários locais ou o corpo todo, a critério do Mestre.
+- **Início retardado:** venenos e doenças podem levar de Rodadas a dias para agir, e repetem o efeito no mesmo intervalo, com novo teste.
+- **Objetos grandes** arremessados usam a perícia de quem arremessa no lugar da Potência. Quem fica preso embaixo gasta 1 PA e vence a Potência com Atletismo (escapar) ou Musculatura (erguer).
+- **Condições** (escolhidas pelo Mestre, até o número da Intensidade, em geral uma por teste falho): Agonia, Alucinações, Cegueira, Confusão, Contágio, Drenagem (de PP), Exaustão (Fadiga), Febre, Inconsciência, Instabilidade, Mania, Morte, Náusea, Paralisia, Surdez.
+
+## 8.12 Quedas {#quedas}
+
+| Altura | Dano | Locais atingidos |
+| --- | --- | --- |
+| Até 1 m | 1d6 | 1 |
+| 2–5 m | 2d6 | 2 |
+| 6–10 m | 3d6 | 3 |
+| 11–15 m | 4d6 | 4 |
+| 16–20 m | 5d6 | 5 |
+| Cada +5 m | +1d6 | — |
+
+- O dano é rolado **separadamente para cada local** atingido. Armadura vestida não protege; Campo de Força e Armadura Inerente protegem.
+- **Acrobacias:** sucesso reduz a altura efetiva em 2 m (4 m com Crítico) e o personagem não fica caído, salvo Ferimento Sério; Falha Crítica sofre o dano máximo.
+- **Voo:** um teste de Atletismo reduz a altura pelo Movimento de voo; se chegar a 0, a queda para.
+- **Superfície macia** (neve, palha) reduz a altura pela metade; cair na água com um teste de Atletismo conta como superfície macia. Superfícies perigosas somam o próprio dano.
+- **Tamanho:** TAM 1 ou menos −10 m; 2–3 −8 m; 4–5 −5 m; 6–7 −3 m; 8–9 −1 m; acima de TAM 20, +1d6 a cada 10 pontos.
+- **Objetos caindo** são Perigos pelo TAM (8.11) e somam o dano de queda da altura.

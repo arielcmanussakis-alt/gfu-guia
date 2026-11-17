@@ -64,7 +64,7 @@ XP só é gasto em **Downtime**. Exceção: encontrar um Instrutor durante uma m
 
 ## 7.3 Patamares de Ameaça {#patamares-de-ameaca}
 
-O Patamar é definido pelo **total de XP gasto** no personagem, em qualquer coisa. Ao subir, o personagem recebe a recompensa da linha e passa a ter os limites dela.
+Os Patamares substituem as Classes de Maestria do Livro v4 (v0.5). O Patamar é definido pelo **total de XP gasto** no personagem, em qualquer coisa. Ao subir, o personagem recebe a recompensa da linha e passa a ter os limites dela.
 
 | Patamar | Nível de Ameaça | XP gasto | Recompensa | Poderes Principais | Poderes Secundários | Amplificações por poder | Máx. Especializações (Comum) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -159,11 +159,13 @@ O poder ou kit INICIAL pode vir do estoque da Loja, de leilão ou de transferên
 
 **3. Investimento.** Logo após a criação, o jogador gasta o XP herdado, sem precisar de Downtime, seguindo todos os custos e limites normais: perícias, Características, poderes novos (se o Patamar liberar o slot), Amplificações, remoção de Limitações. Conforme gasta, o personagem sobe de Patamar e recebe as recompensas de cada um.
 
-| Patamar do personagem anterior | XP herdado (70%) | Patamar estimado do novo personagem |
-| --- | --- | --- |
-| 1–5 (Ventania) | 11–42 | 1–3 (Ventania I a III) |
-| 6–10 (Incêndio) | 56–112 | 5–8 (Ventania V a Incêndio III) |
-| 11–15 (Tempestade) | 133–217 | 8–11 (Incêndio III a Tempestade I) |
-| 16–20 (Terremoto) | 245–357+ | 13–16 (Tempestade III a Terremoto I) |
+| Patamar do personagem anterior | XP gasto (faixa) | XP herdado (70%) | Patamar do novo personagem após o investimento |
+| --- | --- | --- | --- |
+| 1–5 (Ventania) | 0–79 | 0–55 | 1–4 (Ventania I a IV) |
+| 6–10 (Incêndio) | 80–189 | 56–132 | 4–8 (Ventania IV a Incêndio III) |
+| 11–15 (Tempestade) | 190–349 | 133–244 | 8–12 (Incêndio III a Tempestade II) |
+| 16–20 (Terremoto) | 350+ | 245+ | 12+ (Tempestade II em diante) |
+
+A tabela é uma estimativa: usa o XP gasto e arredonda para baixo. Com 90% ou 100%, o novo personagem sobe mais.
 
 **A Baía:** ser levado para a prisão de super-humanos ativa o Legado. Antes disso, a equipe pode tentar uma fuga nas prisões temporárias da Divisão Ômega ou no transporte (caminhão e balsa). Fugir é quase impossível e torna a Ômega uma perseguidora permanente.

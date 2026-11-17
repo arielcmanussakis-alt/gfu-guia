@@ -30,7 +30,7 @@ Os poderes são parte natural da fisiologia. Inerentes são raros, temidos e mar
 Poderes vindos de mutação genética, natural ou provocada. Geralmente um poder ou um grupo de poderes ligados a um tema.
 
 - **Vantagens:** +1 slot de Poder Principal. Liberdade para comprar poderes de árvores adjacentes e até rolar poderes de outras árvores.
-- **Desvantagens:** o Poder Principal extra não recebe Amplificações. Limitação Geral **Recuperação Lenta**: as reservas de energia voltam mais devagar.
+- **Desvantagens:** o Poder Principal extra não recebe Amplificações. Limitação Geral **Recuperação Lenta**: as reservas de energia voltam mais devagar (o ritmo exato está pendente; até lá, o Mestre define).
 
 **Aprimoramentos**
 
@@ -70,7 +70,7 @@ Sem superpoderes; a vantagem vem de treinamento, tecnologia e engenho.
 - *Inspiração:* máximo INT/4; começa cada missão cheio. Ganha 1 ponto a cada sucesso numa Perícia Profissional que seja requisito de uma de suas Especializações.
   - (1) **Ajuste Fino:** após um teste de Perícia de Fabricação, soma +10% ao valor.
   - (2) **Design Versátil:** tenta uma tarefa de Fabricação que exigiria uma perícia que não possui usando outra perícia de Fabricação, com justificativa criativa, um grau mais difícil.
-  - (3) **Descoberta Revolucionária:** sucesso automático em uma etapa da Tarefa Estendida de fabricação de Invenção ou Malware.
+  - (3) **Descoberta Revolucionária:** um teste da fabricação de Invenção ou Malware conta como Crítico (cap. 11.3).
 
 **O Combatente** — foco em Especializações de Combate.
 

@@ -1,6 +1,6 @@
-# Gemini Force · Guia (protótipo 0.1.0)
+# Gemini Force · Guia (protótipo 0.2.0)
 
-Guia de regras (SRD v0.12) do Gemini Force Universe dentro do Foundry VTT 14, no visual do Escudo do Mestre.
+Guia de regras (SRD v0.13) do Gemini Force Universe dentro do Foundry VTT 14, no visual do Escudo do Mestre.
 
 ## Instalar
 

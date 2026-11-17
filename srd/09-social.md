@@ -89,9 +89,9 @@ Cada equipe pertence a um Segmento, que define como ela usa Reputação e Círcu
 
 - *Setor Médico:* tempo de recuperação de Ferimentos Sérios e Graves pela metade.
 - *Setor Jurídico:* destruição de patrimônio ou uso excessivo de força não gera punição pública imediata nem suspensão, salvo traição ou violação de direitos humanos.
-- *Setor Administrativo:* não compram equipamento; antes de cada missão gastam Reputação para requisitar pacotes táticos (colete, rádio), veículo blindado e armas cabíveis. Itens perdidos ou quebrados geram punição administrativa que bloqueia novas requisições.
+- *Setor Administrativo:* não compram equipamento; antes de cada missão gastam Reputação para requisitar pacotes táticos (colete, rádio), veículo blindado e armas cabíveis (bastões, tonfas, escudos), conforme o nível de Reputação definido pelo Instrutor. Tudo é devolvido no fim da missão; itens perdidos ou quebrados geram punição administrativa que bloqueia novas requisições.
 - Recebem salário e orçamento de equipe (cap. 10).
-- *Aposentadoria:* **Instrutor Interno** (Reputação 95+, 30+ anos, 6+ anos de campo): vira NPC que treina o próximo personagem do jogador nas perícias em que era especialista. **Agente de Cadeira** (Reputação 65+, 25+ anos, 5+ anos de campo): uma vez por Arco, um favor administrativo. **Agente Solo** (Reputação 85+, 30+ anos, 6+ anos de campo): uma vez por Season, com 1 Ponto de Sorte, intervém para evitar um TPK, agindo uma Rodada no próprio turno.
+- *Aposentadoria* (por ferimentos acumulados, trauma ou escolha do jogador; a rota depende da Reputação final): **Instrutor Interno** (Reputação 95+, 30+ anos, 6+ anos de campo): vira NPC que treina o próximo personagem do jogador nas perícias em que era especialista. **Agente de Cadeira** (Reputação 65+, 25+ anos, 5+ anos de campo): uma vez por Arco, um favor administrativo. **Agente Solo** (Reputação 85+, 30+ anos, 6+ anos de campo): uma vez por Season, com 1 Ponto de Sorte, intervém para evitar um TPK, agindo uma Rodada no próprio turno.
 
 **Soldados Ômega** — força militarizada global de contenção de super-humanos. Recebem pacotes táticos com Dardos Taser, Algemas de Supressão (impedem Amplificações) e Inibidores Sônicos ou Jammers. *Imunidade de Protocolo:* na captura bem-sucedida de um alvo de Alto Risco, a equipe ignora perda de Reputação e penalidades por destruição urbana.
 

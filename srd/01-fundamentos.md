@@ -4,7 +4,7 @@ number: "1"
 title: Fundamentos
 icon: fa-book-open
 kicker: Base do sistema
-description: Fontes, glossário, testes d100 e graus de dificuldade.
+description: Fontes, glossário, testes d100, graus de dificuldade e Tarefas Estendidas.
 visibility: all
 ---
 
@@ -53,6 +53,10 @@ Role 1d100 contra o valor da perícia, já ajustado pela dificuldade.
 | Falha | Maior que a perícia ajustada |
 | Falha Crítica | 99–00; apenas 00 se a perícia passar de 100% |
 
+Qualquer que seja o valor ajustado, **01–05 é sempre Sucesso** e **96–00 é sempre Falha** (a rolagem do Foundry já aplica isso).
+
+**Sucesso automático:** tarefas simples para quem tem a perícia, ou sem pressa nem pressão, não pedem rolagem. Se o jogador quiser buscar um Crítico, rola num grau favorável (em geral Muito Fácil); a falha ainda cumpre a tarefa, com uma complicação.
+
 ## 1.4 Graus de dificuldade {#graus-de-dificuldade}
 
 O GFU usa os **graus multiplicativos** do Destined. O crítico é calculado sobre o valor ajustado.
@@ -70,6 +74,8 @@ O GFU usa os **graus multiplicativos** do Destined. O crítico é calculado sobr
 
 Modificadores de mesmo sentido não se somam: usa-se o pior (ou o melhor). Com modificadores mistos, conte quantos passos o negativo está do Padrão e aplique-os a partir do positivo. Expressões como "+1 Nível de Dificuldade" significam um grau mais difícil; "−1 Nível" significa um grau mais fácil.
 
+> [!aviso] **Divergência conhecida:** o sistema Mythras do Foundry calcula Hercúleo como 1/10 da perícia; o Destined usa 1/5. Até a staff decidir, a mesa usa o valor que a ficha mostrar e registra o caso (Apêndice).
+
 **Bônus fixos em %** continuam existindo em casos específicos (Disposição Social, Posto em Círculos, bônus de Paixão, +10% de alguns efeitos). Eles somam ao valor da perícia e não mudam o grau.
 
 ## 1.5 Testes Opostos e Diferenciais {#testes-opostos-e-diferenciais}
@@ -81,5 +87,24 @@ Modificadores de mesmo sentido não se somam: usa-se o pior (ou o melhor). Com m
 ## 1.6 Outras regras gerais {#outras-regras-gerais}
 
 - **Tentar de novo:** uma segunda tentativa é permitida, um grau mais difícil, quando a falha não tem consequência imediata.
-- **Auxílio de perícia:** uma perícia relacionada soma 1/5 do seu valor à perícia ativa (regra do Destined).
+- **Auxílio de perícia:** uma perícia relacionada soma 1/5 do seu valor (20%) à perícia ativa. A faixa de Crítico e de Falha Crítica continua a da perícia ativa sem o bônus. Só uma perícia auxilia cada teste, e o Mestre decide se ela se aplica.
+  - **Ajudar outro personagem:** quem ajuda precisa ter a perícia e conseguir se comunicar com o ajudado (inclusive por rádio ou telepatia); soma 1/5 do valor dele ao próximo teste do aliado. Em combate, ajudar custa 1 PA.
+  - **Poder como auxílio:** se um poder ajuda claramente na tarefa e o texto dele não diz outra coisa, o teste fica um grau mais fácil.
+- **Limitar (capping):** quando uma perícia depende de outra mais fraca, o teste usa o valor menor. Ex.: Influência limitada pela Língua do idioma falado.
 - **Concentração:** enquanto um poder com Concentração estiver ativo, todos os testes de perícia do personagem ficam um grau mais difíceis. Só um poder de Concentração por vez; usar outro poder que exija Ação Proativa ou Concentração encerra o primeiro. Ao sofrer dano ou efeito de Perigo, inclusive os que pedem teste de resistência, o personagem faz um teste de Força de Vontade sem oposição ou perde a Concentração.
+
+## 1.7 Tarefas Estendidas {#tarefas-estendidas}
+
+Tarefas longas (consertar um veículo, investigar uma cena, pesquisar um arquivo) são divididas em etapas. O Mestre define a perícia, o tempo de cada etapa e, se houver prazo, quantas etapas cabem nele. Cada teste soma progresso:
+
+| Resultado | Progresso |
+| --- | --- |
+| Crítico | +50% |
+| Sucesso | +25% |
+| Falha | 0 |
+| Falha Crítica | −25% |
+
+- Com **100%**, a tarefa termina. Se o prazo acabar antes, o Mestre pode conceder um resultado parcial proporcional ao progresso.
+- **Várias perícias:** quando mais de uma serve, qualquer uma soma progresso; quando a tarefa exige várias, cada uma precisa de pelo menos um teste.
+- **Auxílio** e **Rolagens Opostas** (ex.: desarmar a bomba de outro personagem) seguem as regras gerais.
+- A fabricação de **Invenções e Malwares** usa uma variante própria, com Progresso em pontos e Defeitos (cap. 11).
